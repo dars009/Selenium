@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestNgDemo.TestNgMaven.Login_TestCase">
+        <methods>
+          <include name="click_OnUser"/>
+          <include name="Fill_Form"/>
+          <include name="heading_Dashboard"/>
+          <include name="clickOn_OperatorBtn"/>
+          <include name="getTableData"/>
+          <include name="setup_Browser"/>
+          <include name="check_Button_color"/>
+          <include name="invalidusername_password"/>
+          <include name="Verify_Url_DashBoard"/>
+          <include name="check_Links"/>
+          <include name="Check_PlaceHolder_Password"/>
+          <include name="Verify_Url"/>
+          <include name="loginsesion"/>
+          <include name="validUsername_Password"/>
+          <include name="Check_PlaceHolder_Username"/>
+          <include name="verify_Title"/>
+          <include name="logOutBtn"/>
+          <include name="Click_On_AddUser_Btn"/>
+          <include name="blank_username_password"/>
+          <include name="verifyApplicationTitle"/>
+          <include name="verifyApplicationTitle_DashBoard"/>
+        </methods>
+      </class> <!-- TestNgDemo.TestNgMaven.Login_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

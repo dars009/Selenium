@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">17</td><td class="numi">17</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">59.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">TestNgDemo.TestNgMaven.Login_TestCase</td><td><a href="#m1"><b>verify_Title</b> (Regression) </a></td><td class="numi">1</td><td>1575652294414</td><td class="numi">5114</td></tr><tr class="failedodd"><td><a href="#m2"><b>Fill_Form</b> (Unit) </a></td><td class="numi">1</td><td>1575652323169</td><td class="numi">14079</td></tr><tr class="failedodd"><td><a href="#m3"><b>logOutBtn</b> (Unit) </a></td><td class="numi">1</td><td>1575652347740</td><td class="numi">5528</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="17">TestNgDemo.TestNgMaven.Login_TestCase</td><td><a href="#m4"><b>Verify_Url</b> (Regression) </a></td><td class="numi">1</td><td>1575652294300</td><td class="numi">71</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyApplicationTitle</b> (Regression) </a></td><td class="numi">1</td><td>1575652294381</td><td class="numi">30</td></tr><tr class="passedodd"><td><a href="#m6"><b>loginsesion</b> (Regression) </a></td><td class="numi">1</td><td>1575652299540</td><td class="numi">27</td></tr><tr class="passedodd"><td><a href="#m7"><b>Check_PlaceHolder_Username</b> (Regression) </a></td><td class="numi">1</td><td>1575652299568</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m8"><b>Check_PlaceHolder_Password</b> (Regression) </a></td><td class="numi">1</td><td>1575652299632</td><td class="numi">44</td></tr><tr class="passedodd"><td><a href="#m9"><b>check_Button_color</b> (Regression) </a></td><td class="numi">1</td><td>1575652299678</td><td class="numi">267</td></tr><tr class="passedodd"><td><a href="#m10"><b>check_Links</b> (Regression) </a></td><td class="numi">1</td><td>1575652299947</td><td class="numi">110</td></tr><tr class="passedodd"><td><a href="#m11"><b>blank_username_password</b> (Regression) </a></td><td class="numi">1</td><td>1575652300059</td><td class="numi">314</td></tr><tr class="passedodd"><td><a href="#m12"><b>invalidusername_password</b> (Regression) </a></td><td class="numi">1</td><td>1575652300374</td><td class="numi">4338</td></tr><tr class="passedodd"><td><a href="#m13"><b>validUsername_Password</b> (Resgression) </a></td><td class="numi">1</td><td>1575652304715</td><td class="numi">3355</td></tr><tr class="passedodd"><td><a href="#m14"><b>Verify_Url_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1575652308073</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m15"><b>verifyApplicationTitle_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1575652308093</td><td class="numi">17</td></tr><tr class="passedodd"><td><a href="#m16"><b>heading_Dashboard</b> (Smoke) </a></td><td class="numi">1</td><td>1575652308115</td><td class="numi">2083</td></tr><tr class="passedodd"><td><a href="#m17"><b>click_OnUser</b> (Unit) </a></td><td class="numi">1</td><td>1575652310199</td><td class="numi">2690</td></tr><tr class="passedodd"><td><a href="#m18"><b>getTableData</b> (Unit) </a></td><td class="numi">1</td><td>1575652312896</td><td class="numi">7889</td></tr><tr class="passedodd"><td><a href="#m19"><b>Click_On_AddUser_Btn</b> (Unit) </a></td><td class="numi">1</td><td>1575652320790</td><td class="numi">2379</td></tr><tr class="passedodd"><td><a href="#m20"><b>clickOn_OperatorBtn</b> (Unit) </a></td><td class="numi">1</td><td>1575652337253</td><td class="numi">10486</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">TestNgDemo.TestNgMaven.Login_TestCase:Fill_Form</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-MDH6837&apos;, ip: &apos;192.168.217.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at TestNgDemo.TestNgMaven.Login_TestCase.Fill_Form(Login_TestCase.java:357)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">TestNgDemo.TestNgMaven.Login_TestCase:logOutBtn</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Logout successfully&apos;)]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-MDH6837&apos;, ip: &apos;192.168.217.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Logout successfully&apos;)]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at TestNgDemo.TestNgMaven.Login_TestCase.logOutBtn(Login_TestCase.java:402)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">TestNgDemo.TestNgMaven.Login_TestCase:verify_Title</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div/header/a/span[2]/b&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-MDH6837&apos;, ip: &apos;192.168.217.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=/html/body/div/header/a/span[2]/b}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at TestNgDemo.TestNgMaven.Login_TestCase.verify_Title(Login_TestCase.java:101)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">TestNgDemo.TestNgMaven.Login_TestCase:clickOn_OperatorBtn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">TestNgDemo.TestNgMaven.Login_TestCase:Check_PlaceHolder_Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">TestNgDemo.TestNgMaven.Login_TestCase:click_OnUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">TestNgDemo.TestNgMaven.Login_TestCase:verifyApplicationTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">TestNgDemo.TestNgMaven.Login_TestCase:blank_username_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">TestNgDemo.TestNgMaven.Login_TestCase:verifyApplicationTitle_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">TestNgDemo.TestNgMaven.Login_TestCase:check_Links</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">TestNgDemo.TestNgMaven.Login_TestCase:loginsesion</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">TestNgDemo.TestNgMaven.Login_TestCase:getTableData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">TestNgDemo.TestNgMaven.Login_TestCase:Verify_Url</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">TestNgDemo.TestNgMaven.Login_TestCase:invalidusername_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">TestNgDemo.TestNgMaven.Login_TestCase:Click_On_AddUser_Btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">TestNgDemo.TestNgMaven.Login_TestCase:heading_Dashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">TestNgDemo.TestNgMaven.Login_TestCase:Check_PlaceHolder_Username</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">TestNgDemo.TestNgMaven.Login_TestCase:check_Button_color</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">TestNgDemo.TestNgMaven.Login_TestCase:Verify_Url_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">TestNgDemo.TestNgMaven.Login_TestCase:validUsername_Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

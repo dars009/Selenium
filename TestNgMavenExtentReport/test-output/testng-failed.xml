@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestNgDemo.TestNgMaven.Login_TestCase">
+        <methods>
+          <include name="verify_Title"/>
+          <include name="Fill_Form"/>
+          <include name="logOutBtn"/>
+          <include name="close_Browse"/>
+          <include name="setup_Browser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestNgDemo.TestNgMaven.Login_TestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

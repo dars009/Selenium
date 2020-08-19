@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="20" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59855" started-at="2019-12-06T17:11:33Z" finished-at="2019-12-06T17:12:33Z">
+    <groups>
+      <group name="Resgression">
+        <method signature="Login_TestCase.validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="validUsername_Password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Resgression -->
+      <group name="Regression">
+        <method signature="Login_TestCase.Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Check_PlaceHolder_Password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Check_PlaceHolder_Username" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Verify_Url" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="blank_username_password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="check_Button_color" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="check_Links" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="invalidusername_password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="loginsesion" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verifyApplicationTitle" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verify_Title" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login_TestCase.Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Verify_Url_DashBoard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="heading_Dashboard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verifyApplicationTitle_DashBoard" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="Login_TestCase.Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Click_On_AddUser_Btn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Fill_Form" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="clickOn_OperatorBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="click_OnUser" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getTableData" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+        <method signature="Login_TestCase.logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="logOutBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Default test" duration-ms="59855" started-at="2019-12-06T17:11:33Z" finished-at="2019-12-06T17:12:33Z">
+      <class name="TestNgDemo.TestNgMaven.Login_TestCase">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="setup_Browser" is-config="true" duration-ms="6550" started-at="2019-12-06T22:41:27Z" finished-at="2019-12-06T22:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="setUp" is-config="true" duration-ms="278" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Verify_Url" duration-ms="71" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="5" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Url status=SUCCESS method=Login_TestCase.Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verifyApplicationTitle" duration-ms="30" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="3" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplicationTitle status=SUCCESS method=Login_TestCase.verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verify_Title" duration-ms="5114" started-at="2019-12-06T22:41:34Z" finished-at="2019-12-06T22:41:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/header/a/span[2]/b"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=/html/body/div/header/a/span[2]/b}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/header/a/span[2]/b"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=/html/body/div/header/a/span[2]/b}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at TestNgDemo.TestNgMaven.Login_TestCase.verify_Title(Login_TestCase.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Title -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="4" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Title status=FAILURE method=Login_TestCase.verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="loginsesion" duration-ms="27" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsesion -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginsesion status=SUCCESS method=Login_TestCase.loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Check_PlaceHolder_Username" duration-ms="62" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Username -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Check_PlaceHolder_Username status=SUCCESS method=Login_TestCase.Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Check_PlaceHolder_Password" duration-ms="44" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Password -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Check_PlaceHolder_Password status=SUCCESS method=Login_TestCase.Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="check_Button_color" duration-ms="267" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_Button_color status=SUCCESS method=Login_TestCase.check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="check_Links" duration-ms="110" started-at="2019-12-06T22:41:39Z" finished-at="2019-12-06T22:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-06T22:41:40Z" finished-at="2019-12-06T22:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_Links status=SUCCESS method=Login_TestCase.check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="blank_username_password" duration-ms="314" started-at="2019-12-06T22:41:40Z" finished-at="2019-12-06T22:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:41:40Z" finished-at="2019-12-06T22:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blank_username_password status=SUCCESS method=Login_TestCase.blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="invalidusername_password" duration-ms="4338" started-at="2019-12-06T22:41:40Z" finished-at="2019-12-06T22:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:41:44Z" finished-at="2019-12-06T22:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidusername_password status=SUCCESS method=Login_TestCase.invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="validUsername_Password" duration-ms="3355" started-at="2019-12-06T22:41:44Z" finished-at="2019-12-06T22:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsername_Password -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validUsername_Password status=SUCCESS method=Login_TestCase.validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Verify_Url_DashBoard" duration-ms="16" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_DashBoard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Url_DashBoard status=SUCCESS method=Login_TestCase.Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="verifyApplicationTitle_DashBoard" duration-ms="17" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle_DashBoard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplicationTitle_DashBoard status=SUCCESS method=Login_TestCase.verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="heading_Dashboard" duration-ms="2083" started-at="2019-12-06T22:41:48Z" finished-at="2019-12-06T22:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heading_Dashboard -->
+        <test-method status="PASS" signature="click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="click_OnUser" duration-ms="2690" started-at="2019-12-06T22:41:50Z" finished-at="2019-12-06T22:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_OnUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:41:50Z" finished-at="2019-12-06T22:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heading_Dashboard status=SUCCESS method=Login_TestCase.heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="5" started-at="2019-12-06T22:41:52Z" finished-at="2019-12-06T22:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_OnUser status=SUCCESS method=Login_TestCase.click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getTableData" duration-ms="7889" started-at="2019-12-06T22:41:52Z" finished-at="2019-12-06T22:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="5" started-at="2019-12-06T22:42:00Z" finished-at="2019-12-06T22:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTableData status=SUCCESS method=Login_TestCase.getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Click_On_AddUser_Btn" duration-ms="2379" started-at="2019-12-06T22:42:00Z" finished-at="2019-12-06T22:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_AddUser_Btn -->
+        <test-method status="FAIL" signature="Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="Fill_Form" duration-ms="14079" started-at="2019-12-06T22:42:03Z" finished-at="2019-12-06T22:42:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=html/body/div[1]/div[1]/section[2]/div/div/div/form/div[1]/div[5]/div/select}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at TestNgDemo.TestNgMaven.Login_TestCase.Fill_Form(Login_TestCase.java:357)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_Form -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:42:03Z" finished-at="2019-12-06T22:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_AddUser_Btn status=SUCCESS method=Login_TestCase.Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-06T22:42:17Z" finished-at="2019-12-06T22:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Fill_Form status=FAILURE method=Login_TestCase.Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="clickOn_OperatorBtn" duration-ms="10486" started-at="2019-12-06T22:42:17Z" finished-at="2019-12-06T22:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_OperatorBtn -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-06T22:42:27Z" finished-at="2019-12-06T22:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOn_OperatorBtn status=SUCCESS method=Login_TestCase.clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="logOutBtn" duration-ms="5528" started-at="2019-12-06T22:42:27Z" finished-at="2019-12-06T22:42:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Logout successfully')]"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=//p[contains(text(),'Logout successfully')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Logout successfully')]"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MDH6837', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\darsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88e30dedcc8949a3dc96400aa0963be7
+*** Element info: {Using=xpath, value=//p[contains(text(),'Logout successfully')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at TestNgDemo.TestNgMaven.Login_TestCase.logOutBtn(Login_TestCase.java:402)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutBtn -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="getResult" is-config="true" duration-ms="7" started-at="2019-12-06T22:42:33Z" finished-at="2019-12-06T22:42:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutBtn status=FAILURE method=Login_TestCase.logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="tearDown" is-config="true" duration-ms="575" started-at="2019-12-06T22:42:33Z" finished-at="2019-12-06T22:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@91161c7]" name="close_Browse" is-config="true" duration-ms="837" started-at="2019-12-06T22:42:33Z" finished-at="2019-12-06T22:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+      </class> <!-- TestNgDemo.TestNgMaven.Login_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
